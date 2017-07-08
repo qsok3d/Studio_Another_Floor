@@ -1,0 +1,130 @@
+body {
+    background: url(../img/bg.png);
+    background-size: 10px;
+}
+.wrap {
+    width: 100%;
+    justify-content: center;
+}
+.header {
+    width: 100%;
+    background:  rgba(25, 25, 25, 1);
+    background-image: url(../img/b.svg);
+    background-size: 5px;
+    border-bottom: 10px solid #fca946;
+    box-sizing: border-box;
+}
+.header .header-wrap {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.header__logo {
+    justify-content: center;
+    align-items: center;
+}
+.header__logo a:hover {
+    box-shadow: 0px 0px 5px white;
+}
+nav a {
+    padding-right: 20px;
+    line-height: 100px;
+    color: white;
+    font-family: 'Robotolight', sans-serif;
+    font-size: 0.8em;
+}
+.nav {
+    justify-content: flex-end;
+    }
+.slider__title {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.5em;
+    color: #fca946;
+    padding-top: 150px;
+    margin: 0;
+}
+.body {
+     border-bottom: 10px solid #fca946;
+}
+.content {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.slider {
+    height: 368px;
+    display: block;
+    text-align: center;
+    background-image: url(../img/slider_bg.png); 
+    background-position: center;  
+}
+.main_button {
+   margin-top: 50px;
+   background-color: #c80928;
+   height: 60px;
+   width: 250px;
+   border: none;
+   font-family: 'Roboto', sans-serif;
+   color: white;
+   box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(0, 0, 0, 1);
+   font-size: 1.2em;
+   cursor: pointer;
+}
+.main_button:hover {
+    background-color: #9b0319;
+}
+.main {
+    max-width: 1440px;
+    margin: 40px auto 40px;
+    text-align: right;
+}
+.row .main__item {
+    background-color: #e6e6e6;
+    font-family: 'Roboto', sans-serif; 
+    padding: 0;
+    text-align: left;
+}
+h1 {
+    font-size: 1.6em;
+    font-family: 'Roboto', sans-serif;
+}
+.main__text {
+    padding: 50px;
+}
+.main_plank {
+    background-color: #fca946;
+    width: 30%;
+    text-align: center; 
+    color: white;
+    font-size: 1.6em;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    margin: -50px 250px 0 0;
+}
+.main_plank h1 {
+    margin: 0;
+}
+.main__item:hover {
+    background-color: #ffdeba;
+    
+}
+.circle_item_1, .circle_item_2, .circle_item_3 {
+    display: block;
+    height: 25px;
+    width: 25px;
+    border: #007017 solid 5px;
+    border-radius: 50%;
+    margin: 50px 20px 50px 20px;
+}
+.circle {
+    justify-content: center;
+
+}
+.circle_item_1 {
+    border-color: #adacac;
+}
+.circle_item_2 {
+    border-color: #000000;
+}
+.circle_item_3 {
+    border-color: #fca946;
+}
